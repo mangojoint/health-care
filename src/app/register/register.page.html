@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <img src=".../.../health-care/img/hc.jpg">
+    <ion-title>Register Healthcare</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div margin-vertical text-left>
+        <!-- <ion-col col-4 >                                              
+            <ion-item>                             
+             <ion-label>Customer</ion-label>                                          
+             <ion-radio  value="Customer" ></ion-radio>                           
+             </ion-item>                         
+         </ion-col>
+         <ion-col col-4 >                                              
+            <ion-item>                             
+             <ion-label>Nurse</ion-label>                                          
+             <ion-radio  value="nurse" ></ion-radio>                           
+             </ion-item>                         
+         </ion-col>    -->
+         <h3>Please choose your type for registration</h3>
+         <ion-button ngModel= "btn-register" value="" (click)= "tocustomer()">Back</ion-button>
+         <ion-button ngModel="btn-login" value="" (click)= "tonurse()">Next</ion-button> 
+         <ion-button ngModel="btn-login" value="" (click)= "backpage()">Next</ion-button> 
+    </div>
+    
+</ion-content>

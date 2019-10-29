@@ -1,0 +1,27 @@
+<ion-app>
+    <ion-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <ion-card>
+                <h1>Health Care Service</h1>
+                <ion-card-content>
+                  <ion-item>
+                    <img src=".../.../health-care/img/hc.jpg"><img>
+                    <ion-label position="floating">Username</ion-label>
+                    <ion-input type="number" ngModel="usernamefirstpage"></ion-input>
+                    <ion-label position="floating">Password</ion-label>
+                    <ion-input type="number" ngModel="passwordfirstpage"></ion-input>
+                    <div margin-vertical text-left>
+                        <ion-button ngModel= "btn-register" (click)= "openregisterpage()">Register</ion-button>
+                        <ion-button ngModel="btn-login" (click)= "opennextpage()">Login</ion-button>   
+                    </div>
+                  </ion-item>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-content>
+</ion-app>
+

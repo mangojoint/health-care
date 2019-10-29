@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+      <img src=".../.../health-care/img/hc.jpg">
+      <ion-title>Register Healthcare</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <ion-label position="floating">Username</ion-label>
+    <ion-input type="number" ngModel="usernamenu"></ion-input>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="number" ngModel="passwordnu"></ion-input>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input type="number" ngModel="namenu"></ion-input>
+    <ion-label position="floating">Surname</ion-label>
+    <ion-input type="number" ngModel="surnamenu"></ion-input>
+    <ion-label position="floating">Phone Number</ion-label>
+    <ion-input type="number" ngModel="phonenu"></ion-input>
+    <ion-label position="floating">Address</ion-label>
+    <ion-input type="number" ngModel="addressnu"></ion-input>
+    <div margin-vertical text-left>
+        <ion-button ngModel= "btn-register" (click)= "backpage()">Back</ion-button>
+        <ion-button ngModel="btn-login" (click)= "regisnu()">Next</ion-button>  
+    </div>
+</ion-content>
